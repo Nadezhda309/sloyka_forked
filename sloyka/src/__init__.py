@@ -1,7 +1,7 @@
 from .event_detection import EventDetection
 from .geocoder import Geocoder
 from .text_classifiers import TextClassifiers
-from .data_getter import GeoDataGetter, Streets, VKParser
+from .data_getter import GeoDataGetter, Streets, VKParser, HistGeoDataGetter
 from .semantic_graph import Semgraph
 from .ner_parklike import NER_parklike
 
@@ -13,5 +13,6 @@ __all__ = [
     "Semgraph",
     "Streets",
     "NER_parklike",
-    "VKParser"
+    "VKParser",
+    "HistGeoDataGetter"
 ]
