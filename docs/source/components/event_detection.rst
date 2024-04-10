@@ -5,4 +5,4 @@ Event detection
 class EventDetection
 ~~~~~~~~~~~~~~
 
-.. autoclass:: factfinder.src.event_detection.EventDetection
+.. automodule:: factfinder.src.event_detection
